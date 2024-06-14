@@ -8,20 +8,6 @@ This repository contains a Python script tailored for investment bankers to auto
 - **DCF Calculation**: Estimates future cash flows, applies discount rates, and calculates the present value to determine intrinsic company value.
 - **Excel Report Generation**: Creates detailed Excel reports with formatted sheets containing financial data, DCF valuation, charts, and summary metrics.
 
-## Usage
-1. **Setup Environment**:
-   - Install necessary Python packages:
-     ```
-     pip install -r requirements.txt
-     ```
-   
-2. **Running the Script**:
-   - Execute the script with a company ticker symbol:
-     ```
-     python financialDataScraper.py AAPL
-     ```
-   - Replace `AAPL` with the ticker symbol of any publicly traded company.
-
 3. **Output**:
    - The script generates an Excel file named `{ticker}_financial_data.xlsx` containing multiple sheets:
      - **Financial Data**: Detailed financial statements and charts.
